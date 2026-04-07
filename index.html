@@ -37,14 +37,14 @@ height:100%;
 object-fit:cover;
 }
 
-/* 🔹 ปรับขนาดรูปให้ใกล้สเก็ต */
+/* รูปเล็กมากและชิดซ้าย */
 .img-box{
-width:72%;
+width:30%;
 aspect-ratio:1/1;
 border-radius:20px;
 overflow:hidden;
-margin:0 auto 18px; /* จัดกลาง */
 border:3px solid #e6f6ff;
+flex-shrink:0;
 }
 
 .img-box img{
@@ -52,6 +52,17 @@ width:100%;
 height:100%;
 object-fit:cover;
 display:block;
+}
+
+/* จัดรูปกับข้อความให้อยู่ข้างกัน */
+.flex-row{
+display:flex;
+gap:25px;
+align-items:flex-start;
+}
+
+.content-side{
+width:70%;
 }
 
 .green-box{
@@ -101,15 +112,17 @@ hr{margin:20px 0;}
 <a href="https://shorturl.asia/TyGg4" target="_blank" class="btn mt-3">
 ◜⇢⇢Check q hֺere
 </a>
-
 </div>
 
-<!-- SHEET Q + HOW TO BRIEF -->
+<!-- SHEET Q -->
 <div class="card mt-6">
+<div class="flex-row">
 
 <div class="img-box">
 <img src="https://i.postimg.cc/wvjXnscd/IMG_0310.png">
 </div>
+
+<div class="content-side">
 
 <h2 class="section-title">ㅤㅤㅤ ִ𐙚 sheֺet Q 🪼◝ִ</h2>
 
@@ -129,7 +142,7 @@ hr{margin:20px 0;}
 
 <hr>
 
-<h2 class="center text-lg mt-6">Hֺow to brief ?</h2>
+<h2 class="text-lg mt-4">Hֺow to brief ?</h2>
 
 <p class="mt-3">เลือกเวอร์ชั่น 🍒</p>
 
@@ -146,13 +159,18 @@ hr{margin:20px 0;}
 <p>┈ แนวนอน = A</p>
 
 </div>
+</div>
+</div>
 
 <!-- ป้ายฟอนต์ -->
 <div class="card">
+<div class="flex-row">
 
 <div class="img-box">
 <img src="https://i.postimg.cc/JnYN84Pj/IMG_0312.png">
 </div>
+
+<div class="content-side">
 
 <h2 class="section-title">ป้ายฟอนต์แนวคุณพาย</h2>
 
@@ -172,13 +190,18 @@ Detail𓈒
 <a href="https://drive.google.com/drive/folders/122zhGv5tdXBJcD0-OZaMLJjNl54rbl4Z" target="_blank" class="btn">example</a>
 
 </div>
+</div>
+</div>
 
 <!-- ป้ายแอพ -->
 <div class="card">
+<div class="flex-row">
 
 <div class="img-box">
 <img src="https://i.postimg.cc/vB2ryH3V/IMG_0313.png">
 </div>
+
+<div class="content-side">
 
 <h2 class="section-title">ป้ายแอพแนวคุณพาย</h2>
 
@@ -193,38 +216,7 @@ Detail𓈒
 <a href="https://drive.google.com/drive/folders/1mUhsDRvQ-Fj9bcfNIVEbmM11Ijgik0kM" target="_blank" class="btn">example</a>
 
 </div>
-
-<!-- บริการทำเว็บ -->
-<div class="card">
-
-<div class="img-box">
-<img src="https://i.postimg.cc/qRDsrMj6/AHH_TOO_CLOSE_62_20260325125219.png">
 </div>
-
-<h2 class="section-title">บริการทำเว็บ</h2>
-
-<p>𓂂200 lines ♡𓈒 127.-</p>
-<p>𓂂400 lines ♡𓈒 199.-</p>
-<p>𓂂600 lines ♡𓈒 279.-</p>
-<p class="mt-2">เพิ่มรูป +15/รูป</p>
-<p class="small mt-2">รอบเก็บตัวอย่าง</p>
-
-<a href="https://drive.google.com/drive/folders/1RFTBwS3IFqs-LAs3-PVWGHwIVoLCeG6D" target="_blank" class="btn">
-example
-</a>
-
-</div>
-
-<!-- CONTACT -->
-<div class="card center">
-
-<h2>Contact</h2>
-
-<a href="https://www.facebook.com/share/1ABZyCmqzT/?mibextid=wwXIfr" target="_blank" class="btn">Facebook</a>
-<a href="https://www.instagram.com/jindevinesia.app?igsh=aWQ0eW5ndDR1Yjkz" target="_blank" class="btn">Instagram</a>
-<a href="https://lin.ee/nq8A9cq" target="_blank" class="btn">Line</a>
-<a href="https://x.com/jindevinesia?s=21&t=JBiCwjUXQyAk0TzJRsRVBQ" target="_blank" class="btn">X</a>
-
 </div>
 
 <div class="footer">
